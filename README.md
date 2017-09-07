@@ -48,12 +48,12 @@ in parentheses.
 I have worked with this data before and developed the 
 following pdf with my other two collaborators.   
 
-- Let $\bold{x}=(x_1, x_2, \ldots, x_n)$ denote a vector of 
+- Let ${\bf x}=(x_1, x_2, \ldots, x_n)$ denote a vector of 
 $n$ independent observations
 
-- Let the vector $\bold{c}=(c_1, c_2, \ldots, c_M)$ 
+- Let the vector ${\bf c}=(c_1, c_2, \ldots, c_M)$ 
 represent the $M$ different right censoring points and 
-let $\bold{\alpha}= (\alpha_1, \alpha_2, \ldots, \alpha_M)'$
+let ${\bf \alpha}= (\alpha_1, \alpha_2, \ldots, \alpha_M)'$
 be the corresponding vector of censoring probabilities.
 
 - The conditional probabilities aere computed as 
@@ -62,9 +62,9 @@ $\alpha_i = P(X=c_i|X>c_i)$, for $i = 1, 2, \ldots, M$
 - Then, the random variable $X$ has the following PDF
 
 $$
-f_X(x,\bold{c}|\bold{\theta}, \bold{\alpha})=
+f_X(x,{\bf c}|{\bf \theta}, {\bf \alpha})=
 \begin{cases}
-f_X(x,\bold{c}|\bold{\theta}, \bold{\alpha})=,\\
+f_X(x,\{\bf c}|{\bf \theta}, {\bf \alpha})=,\\
 x(n-1)\\
 x(n-1)
 \end{cases}
