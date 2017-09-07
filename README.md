@@ -15,13 +15,13 @@ model has some similarities with the insurance model,
 there are some known differences. A data set on 
 veterans benefit is provided by ND Department of 
 Veterans Affairs for the period 2006-2009 (see 
-Figure below).  The benefit limit of $1000 was 
+Figure below).  The benefit limit of \$1000 was 
 introduced in year 2008. Prior to 2008, there was 
-a benefit limit of $750.  
+a benefit limit of \$750.  
   
 
 Year 2006-2009; 225 observations; 38% censoring; 
-2 censoring levels: $750 and $1000.
+2 censoring levels: \$750 and \$1000.
 
 
 Research question: The ND State Agency wants to know 
@@ -40,7 +40,7 @@ policy limits and the right tail of the loss
 distribution has multiple right censoring points (but 
 not all observations are censored at the censoring 
 points). For example, ISO Loss Data (see below) have 
-8 censoring points. Censored amount is listed in $’1000s 
+8 censoring points. Censored amount is listed in \$’1000s 
 of dollars. Number of censoring data points are listed 
 in parentheses. 
       
