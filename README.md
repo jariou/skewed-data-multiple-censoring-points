@@ -62,9 +62,9 @@ $\alpha_i = P(X=c_i|X>c_i)$, for $i = 1, 2, \ldots, M$
 - Then, the random variable $X$ has the following PDF
 
 $$
-f_X(x,\textbf{ c}|\textbf{ \theta}, \textbf{ \alpha})=
+f_X(x,\textbf{ c}|\boldsymbol{ \theta}, \boldsymbol{ \alpha})=
 \begin{cases}
-f_X(x,\textbf{ c}|\textbf{ \theta}, \textbf{ \alpha})=,\\
+f_X(x,\textbf{ c}|\boldsymbol{ \theta}, \boldsymbol{ \alpha})=,\\
 x(n-1)\\
 x(n-1)
 \end{cases}
